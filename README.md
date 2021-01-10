@@ -29,12 +29,14 @@ CI/CD could be triggered manually.
 1. The auto built docker image location<br>
 [https://hub.docker.com/repository/docker/gfengster/cake-manager](https://hub.docker.com/repository/docker/gfengster/gfoauth2)
 2. Pull docker image built in GitHub from DockerHub<br>
-`docker pull registry.hub.docker.com/gfengster/gfoauth2:latest`
+`docker pull gfengster/gfoauth2:latest`
 3. Create a container and run the application<br>
-`docker run -p 18080:18080 gfengster/gfoauth2`
+`docker run -p 19090:19090 gfengster/gfoauth2`
 
 ## Using the application
 Note: Before run the application make sure port 19090 are free.
 1. Show my GitHub and Google login page<br>
 [http://localhost:19090](http://localhost:19090)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
