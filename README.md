@@ -27,7 +27,7 @@ The project source code is hosted in GitHub. CI/CD has been configured in workfl
 Changing code could trigger CI workflow, which test, build the project. If succeeded, docker image will be created and deployed to [DockerHub](https://hub.docker.com).<br>
 CI/CD could be triggered manually.
 1. The auto built docker image location<br>
-[https://hub.docker.com/repository/docker/gfengster/cake-manager](https://hub.docker.com/repository/docker/gfengster/gfoauth2)
+[https://hub.docker.com/repository/docker/gfengster/gfoauth2](https://hub.docker.com/repository/docker/gfengster/gfoauth2)
 2. Pull docker image built in GitHub from DockerHub<br>
 `docker pull gfengster/gfoauth2:latest`
 3. Create a container and run the application<br>
@@ -37,17 +37,17 @@ CI/CD could be triggered manually.
 Note: Before run the application make sure port 19090 are free.
 1. Show my GitHub and Google login page<br>
 [http://localhost:19090](http://localhost:19090)<br>
-![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/login.png "My Login page")
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/login.png)
 <br>
-2. Click GitHub login link. The GitHub login page will show.
-![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/github.png "GitHub login")
+2. Click GitHub login link. The GitHub login page will show.<br>
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/gitgub.png)
 <br>
 3. After logged in, the page will turn to 
-![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/githubloggedin.png "GitHub logged in")
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/githubloggedin.png)
 <br>
 4. Clicking the Logout button will log out. The page in step 1 show.
 <br>
 5. Clicking Google login link and log in, the Google logged in page will be<br>
-![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/googleloggedin.png "Google logged in")
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/googleloggedin.png)
 
 
