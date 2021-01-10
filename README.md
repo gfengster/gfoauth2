@@ -36,7 +36,18 @@ CI/CD could be triggered manually.
 ## Using the application
 Note: Before run the application make sure port 19090 are free.
 1. Show my GitHub and Google login page<br>
-[http://localhost:19090](http://localhost:19090)
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[http://localhost:19090](http://localhost:19090)<br>
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/login.png "My Login page")
+<br>
+2. Click GitHub login link. The GitHub login page will show.
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/github.png "GitHub login")
+<br>
+3. After logged in, the page will turn to 
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/githubloggedin.png "GitHub logged in")
+<br>
+4. Clicking the Logout button will log out. The page in step 1 show.
+<br>
+5. Clicking Google login link and log in, the Google logged in page will be<br>
+![alt text](https://raw.githubusercontent.com/gfengster/gfoauth2/main/images/googleloggedin.png "Google logged in")
 
 
